@@ -1,4 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+#New moves begin at line 8714
 #-------------------------------
 [MEGAHORN]
 Name = Megahorn
