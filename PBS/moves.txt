@@ -8803,7 +8803,7 @@ TotalPP = 15
 Target = NearOthers
 FunctionCode = None
 Flags = CanProtect,Contact
-Description = The user hits the target with its tail.
+Description = The user slams the target with its tail.
 #-------------------------------
 [HIPCHECK]
 Name = Hip Check
@@ -8815,5 +8815,5 @@ TotalPP = 20
 Target = NearOthers
 FunctionCode = None
 Flags = CanProtect
-Description = 
+Description = The user delivers a hip check upon the target.
 #-------------------------------
