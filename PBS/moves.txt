@@ -8711,3 +8711,16 @@ TotalPP = 40
 Target = User
 FunctionCode = RaiseUserDefense1
 Description = The user withdraws its body into its hard shell, raising its Defense stat.
+#-------------------------------
+[EMPERORSSAPPHIRE]
+Name = Emperor's Sapphire
+Type = DRAGON
+Category = Special
+Power = 250
+Accuracy = 100
+TotalPP = 3
+Target = AllFoes
+FunctionCode = TwoTurnAttackCharge
+Flags = CanProtect
+Description = Safi'jiiva condenses dragon energy to cause catastrophic damage.
+#-------------------------------
