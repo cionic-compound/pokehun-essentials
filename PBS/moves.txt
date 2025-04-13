@@ -8726,7 +8726,7 @@ Description = Safi'jiiva condenses dragon energy to cause catastrophic damage.
 #-------------------------------
 [WINDAURA]
 Name = Wind Aura
-Type = Flying
+Type = FLYING
 Category = Status
 Accuracy = 0
 TotalPP = 30
@@ -8748,11 +8748,72 @@ Description = Fatalis breaths fire so strong it damage monsters in the party.
 #-------------------------------
 [FRENZYSPREAD]
 Name = Frenzy Spread
-Type = Poison
+Type = POISON
 Category = Status
-Accuracy = 0
+Accuracy = 100
 TotalPP = 20
 Target = NearOthers
 FunctionCode = FrenzySpread
+Flags = CanProtect
 Description = Inflicts the foe with Frenzy Virus, dealing slight damage every turn while making it unable to use status moves and increasing damage it takes.
+#-------------------------------
+[CHARGE]
+Name = Charge
+Type = NORMAL
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 25
+Target = NearOthers
+FunctionCode = None
+Flags = CanProtect,Contact
+Description = The user charges at the target.
+#-------------------------------
+[TAILSWIPE]
+Name = Tail Swipe
+Type = NORMAL
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 35
+Target = NearOthers
+FunctionCode = None
+Flags = CanProtect,Contact
+Description = The user swipes the target with its tail.
+#-------------------------------
+[TAILSTRIKE]
+Name = Tail Strike
+Type = NORMAL
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 25
+Target = NearOthers
+FunctionCode = None
+Flags = CanProtect,Contact
+Description = The user strikes the target with its spiked tail.
+#-------------------------------
+[TAILSLAM]
+Name = Tail Slam
+Type = NORMAL
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 15
+Target = NearOthers
+FunctionCode = None
+Flags = CanProtect,Contact
+Description = The user hits the target with its tail.
+#-------------------------------
+[HIPCHECK]
+Name = Hip Check
+Type = NORMAL
+Category = Physical
+Power = 70
+Accuracy = 95
+TotalPP = 20
+Target = NearOthers
+FunctionCode = None
+Flags = CanProtect
+Description = 
 #-------------------------------
