@@ -8719,8 +8719,40 @@ Category = Special
 Power = 250
 Accuracy = 100
 TotalPP = 3
-Target = AllFoes
+Target = AllNearOthers
 FunctionCode = TwoTurnAttackCharge
 Flags = CanProtect
 Description = Safi'jiiva condenses dragon energy to cause catastrophic damage.
+#-------------------------------
+[WINDAURA]
+Name = Wind Aura
+Type = Flying
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = WindAura
+Description = Kushala Daora summons a Wind Aura and prevents non-contact moves from affecting it.
+#-------------------------------
+[EVILNOVA]
+Name = Evil Nova
+Type = FIRE
+Category = Special
+Power = 140
+Accuracy = 100
+TotalPP = 3
+Target = AllNearOthers
+FunctionCode = EvilNova
+Flags = CanProtect
+Description = Fatalis breaths fire so strong it damage monsters in the party.
+#-------------------------------
+[FRENZYSPREAD]
+Name = Frenzy Spread
+Type = Poison
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = NearOthers
+FunctionCode = FrenzySpread
+Description = Inflicts the foe with Frenzy Virus, dealing slight damage every turn while making it unable to use status moves and increasing damage it takes.
 #-------------------------------
