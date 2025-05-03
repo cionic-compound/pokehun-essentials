@@ -8793,8 +8793,8 @@ FunctionCode = None
 Flags = CanProtect,Contact
 Description = The user strikes the target with its spiked tail.
 #-------------------------------
-[TAILSLAM]
-Name = Tail Slam
+[TAILSMASH]
+Name = Tail Smash
 Type = NORMAL
 Category = Physical
 Power = 85
@@ -8803,13 +8803,13 @@ TotalPP = 15
 Target = NearOthers
 FunctionCode = None
 Flags = CanProtect,Contact
-Description = The user slams the target with its tail.
+Description = The user smashes into the target with its powerful tail.
 #-------------------------------
 [HIPCHECK]
 Name = Hip Check
 Type = NORMAL
 Category = Physical
-Power = 70
+Power = 60
 Accuracy = 95
 TotalPP = 20
 Target = NearOthers
@@ -8817,3 +8817,27 @@ FunctionCode = None
 Flags = CanProtect
 Description = The user delivers a hip check upon the target.
 #-------------------------------
+[RAKE]
+Name = Rake
+Type = NORMAL
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOthers
+FunctionCode = None
+Flags = CanProtect
+Description = The user rakes its claws against the target.
+#-------------------------------
+[FIREBALL]
+Name = Fire Ball
+Type = FIRE
+Category = Special
+Power = 80
+Accuracy = 80
+TotalPP = 20
+Target = NearOthers
+FunctionCode = BurnTarget
+Flags = CanProtect
+EffectChance = 10
+Description = The user spits a ball of flaming liquid at the opponent. May Burn.
