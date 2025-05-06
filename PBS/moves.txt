@@ -8721,7 +8721,7 @@ Accuracy = 100
 TotalPP = 3
 Target = AllNearOthers
 FunctionCode = TwoTurnAttackCharge
-Flags = CanProtect
+Flags = CanProtect,CannotMetronome
 Description = Safi'jiiva condenses dragon energy to cause catastrophic damage.
 #-------------------------------
 [WINDAURA]
@@ -8743,7 +8743,7 @@ Accuracy = 100
 TotalPP = 3
 Target = AllNearOthers
 FunctionCode = EvilNova
-Flags = CanProtect
+Flags = CanProtect,CannotMetronome
 Description = Fatalis breaths fire so strong it damage monsters in the party.
 #-------------------------------
 [FRENZYSPREAD]
@@ -8841,3 +8841,124 @@ FunctionCode = BurnTarget
 Flags = CanProtect
 EffectChance = 10
 Description = The user spits a ball of flaming liquid at the opponent. May Burn.
+#-------------------------------
+[ABSOLUTEROAR]
+Name = Absolute Roar
+Type = FIGHTING
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+FunctionCode = Sound
+Flags = CanProtect
+Description = Tigrex releases a roar so loud it causes physical pain to the opponent. 
+#-------------------------------
+[SCREAMBEAM]
+Name = Thundercrack
+Type = ELECTRIC
+Category = Special
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = Other
+FunctionCode = None
+Flags = CanProtect
+Description = Rajang channels its anger and screams a beam of electricity at the target.
+#-------------------------------
+[APESHIT]
+Name = Primate Power
+Type = NORMAL
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = NearOthers
+FunctionCode = MultiTurnAttackConfuseUserAtEnd,HyperAnger
+Flags = CanProtect,CannotMetronome
+Description = The user snaps and starts going crazy and attacks without thinking, confusing itself after a few turns.
+#-------------------------------
+[SUPERNOVA]
+Name = Supernova
+Type = FIRE
+Category = Special
+Power = 120
+Accuracy = 90
+TotalPP = 10
+Target = NearOthers
+FunctionCode = None
+Flags = CanProtect,CannotMetronome
+Description = Teostra flies around, spreading dander in the area before gnashing its fans and causing a large explosion.
+#-------------------------------
+[AMBUSHATTACK]
+Name = Ambush Attack
+Type = DRAGON
+Category = Physical
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = Other
+FunctionCode = TwoTurnAttackInvulnerableInSky
+Flags = CannotMetronome
+Description = Valstrax flies high into the sky for one turn, before coming crashing back down.
+#-------------------------------
+[FEEDINGFRENZY]
+Name = Feeding Frenzy
+Type = GHOST
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 20
+Target = NearOthers
+FunctionCode = FeedingFrenzy
+Flags = CanProtect,CannotMetronome
+EffectChance = 100
+Description = Gaismagorm sends a swarm of Qurio to feed. Heals full damage dealt and lowers the opponents defenses.
+#-------------------------------
+[TONGUELASH]
+Name = Tongue lash
+Type = POISON
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 20
+Target = NearOthers
+FunctionCode = UserStealTargetPositiveStatStages
+Flags = CanProtect,CannotMetronome
+Description = Chameleos licks stat changes off of the opponent and boosts itself with them.
+#-------------------------------
+[UPHEAVAL]
+Name = Upheaval
+Type = GROUND
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 25
+Target = NearOthers
+FunctionCode = Upheaval
+Flags = CanProtect
+Description = The user lifts the ground and tosses it at the opponent. Type and effect depend on the surrounding area.
+#-------------------------------
+[ICETWISTER]
+Name = Ice Twister
+Type = ICE
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 25
+Target = Others
+FunctionCode = IceTwister
+Flags = CanProtect
+Description = Aruganosu summons an icy twister. Becomes stronger when powered by Thunder Twister.
+#-------------------------------
+[THUNDERTWISTER]
+Name = Thunder Twister
+Type = ELECTRIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 25
+Target = Others
+FunctionCode = ThunderTwister
+Flags = CanProtect
+Description = Goruganasu summons an electrically charged twister. Becomes stronger when powered by Ice Twister.
