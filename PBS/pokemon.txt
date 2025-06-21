@@ -23117,7 +23117,7 @@ Flags = Legendary
 [APTONOTH]
 Name = Aptonoth
 Types = NORMAL
-BaseStats = 100,75,75,45,55,45
+BaseStats = 100,75,75,45,45,55
 GenderRatio = Female50Percent
 GrowthRate = Fast
 BaseExp = 25
