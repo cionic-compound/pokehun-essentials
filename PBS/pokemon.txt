@@ -23115,7 +23115,7 @@ Generation = 8
 Flags = Legendary
 #-------------------------------
 [APTONOTH]
-Name = Demo Aptonoth
+Name = Aptonoth
 Types = NORMAL
 BaseStats = 100,75,75,45,55,45
 GenderRatio = Female50Percent
